@@ -1,0 +1,31 @@
+{
+  "name": "bookdirectory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hao3830/bookDirectory.git"
+  },
+  "keywords": [
+    "bookdirectory"
+  ],
+  "author": "Heno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hao3830/bookDirectory/issues"
+  },
+  "homepage": "https://github.com/hao3830/bookDirectory#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.3",
+    "mongoose-slug-generator": "^1.0.4",
+    "nodemon": "^2.0.15"
+  }
+}
