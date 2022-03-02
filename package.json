@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/hao3830/bookDirectory#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.3",
     "express-handlebars": "^6.0.2",
+    "helmet": "^5.0.2",
     "mongodb": "^4.4.0",
     "mongoose": "^6.2.3",
     "mongoose-slug-generator": "^1.0.4",
