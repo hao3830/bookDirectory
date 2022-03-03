@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const BookController = require('../app/controllers/BookController');
-
-router.use('/',BookController.index);
-
+const UpdateController = require('../app/controllers/UpdateController');
+router.get('/',BookController.index);
+router.put('/',UpdateController.update);
 module.exports = router;
